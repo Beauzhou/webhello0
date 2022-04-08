@@ -1,0 +1,13 @@
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\command\CommandFactory.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\command\AddBookPage.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\command\LoginCommand.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\dao\ConnectionFactory.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\command\AddBookCommant.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\command\Command.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\Controller.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\dao\BookDao.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\dao\UserDao.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\entity\User.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\entity\Book.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\command\LogoutCommand.java
+C:\Users\ZB\IdeaProjects\webhello\src\main\java\by.bsu.web\command\BookListCommand.java

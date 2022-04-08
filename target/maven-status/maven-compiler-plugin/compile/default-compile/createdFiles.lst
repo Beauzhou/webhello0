@@ -1,0 +1,13 @@
+by\bsu\web\command\CommandFactory.class
+by\bsu\web\Controller.class
+by\bsu\web\dao\ConnectionFactory.class
+by\bsu\web\dao\UserDao.class
+by\bsu\web\command\LoginCommand.class
+by\bsu\web\command\AddBookPage.class
+by\bsu\web\command\Command.class
+by\bsu\web\dao\BookDao.class
+by\bsu\web\entity\Book.class
+by\bsu\web\command\BookListCommand.class
+by\bsu\web\command\AddBookCommant.class
+by\bsu\web\entity\User.class
+by\bsu\web\command\LogoutCommand.class
