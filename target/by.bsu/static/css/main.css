@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.student_body {
+    background-image: url("../img/addbook.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.list_body {
+    background-image: url("../img/bookslist.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.list_body .list_div{
+    position: relative;
+    top:50px;
+    left:150px;
+    vertical-align:middle;
+}
+.main_body {
+    background-image: url("../img/book.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main_box{
+    position: relative;
+    top:200px;
+    left: 200px;
+}
+.main_box .box_1{
+    float:left;
+    margin:50px
+}
+.main_box .box_1 .img_1 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
