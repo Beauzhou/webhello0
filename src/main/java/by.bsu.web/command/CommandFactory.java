@@ -1,5 +1,6 @@
 package by.bsu.web.command;
 
+
 public class CommandFactory {
     public Command create(String command){
         switch (command){
@@ -7,12 +8,25 @@ public class CommandFactory {
                 return new LoginCommand();
             case "logout":
                 return new LogoutCommand();
-            case "bookList":
-                return new BookListCommand();
-            case "addBook":
-                return new AddBookCommant();
-            case "addBookCommand":
-                return new AddBookPage();
+            case "studentList":
+                return new StudentListCommand();
+            case "addStudent":
+                return new AddStudentCommant();
+            case "addStudentCommand":
+                return new AddStudentPage();
+            case "register":
+                return new RegisterCommand();
+            case "registerCommand":
+                return new RegisterPage();
+            case "deleteStudent":
+                return new DeleteStudent();
+            case "upgradeStudents":
+                return new UpgradeStudents();
+            case "upgradeStudentMain":
+                return new UpgradeStudentMain();
+            case "main":
+                return new MainCommand();
+
             default:
                 throw new UnsupportedOperationException();
         }

@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="static/css/style.css">
     <title>login UI</title>
     </head>
     <body>
@@ -17,8 +17,15 @@
 		        <input type="password" name="password" required="">
 		        <label>PASSWORD</label>
             </div>
-            <input type="submit" name="" value="submit">
+            <div style="text-align: center;">
+            <input class="submit1" type="submit" name="" value="submit">
+            </div>
 	        </form>
+            <div style="text-align: center; ">
+            <form action="controller?command=register" method="post" >
+            <input  style="text-align: center" class="submit2" type="submit" name="register" value="register">
+            </form>
+            </div>
 	    </div>
 	    <script type="text/javascript">
 	    <c:if test="${error_message !=null}">
