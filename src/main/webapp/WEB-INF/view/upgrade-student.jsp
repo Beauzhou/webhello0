@@ -30,6 +30,9 @@
             <a class="nav-link" href="controller?command=addStudent">add student</a>
           </c:if>
         </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="controller?command=mentorList" >Mentorlists</a>
+        </li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item">

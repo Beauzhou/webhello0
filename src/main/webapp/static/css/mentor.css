@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.student_body1 {
+    background-image: url("../img/addbook.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.list_body1 {
+    background-image: url("../img/bookslist.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.list_body1 .list_div1{
+    position: relative;
+    top:50px;
+    left:150px;
+    vertical-align:middle;
+}
+.list_body1 .list_div1 li{
+    margin-left: 100px;
+    margin-bottom: 45px;
+}
+.mentor1{
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    width: 100px;
+    height: 120px;
+}
+.mentor1 img{
+    width: 100%;
+    height: 100%;
+}
+.mentor2{
+    position: absolute;
+    top: 200px;
+    left:-10px;
+    width: 100px;
+    height: 120px;
+}
+.mentor2 img{
+    width: 100%;
+    height: 100%;
+}
+.mentor3{
+    position: absolute;
+    top: 350px;
+    left: -10px;
+    width: 100px;
+    height: 120px;
+}
+.mentor3 img{
+    width: 100%;
+    height: 100%;
+}
+.mentor4{
+    position: absolute;
+    top: 500px;
+    left: -10px;
+    width: 100px;
+    height: 120px;
+}
+.mentor4 img{
+    width: 100%;
+    height: 100%;
+}

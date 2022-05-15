@@ -10,6 +10,8 @@ public class CommandFactory {
                 return new LogoutCommand();
             case "studentList":
                 return new StudentListCommand();
+            case "mentorList":
+                return new MentorListCommand();
             case "addStudent":
                 return new AddStudentCommant();
             case "addStudentCommand":
