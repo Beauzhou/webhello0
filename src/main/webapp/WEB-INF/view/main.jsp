@@ -30,6 +30,9 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="controller?command=mentorList" >Mentorlists</a>
                     </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="controller?command=selectMark" >mark</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -39,27 +42,12 @@
             </div>
         </div>
     </nav>
-    <div class="main_box">
-    <div class="box_1">
-        <a href="controller?command=studentList">
-        <img class="img_1" src="static/img/booklist.jpg" alt="HTML tutorial" >
-        </a>
-        <h2 style="text-align:center;">studentlist</h2>
-    </div>
-    <c:if test="${user != null and user.is_admin == 1}">
-    <div class="box_1">
-        <a href="controller?command=addStudent">
-        <img class="img_1" src="static/img/add.jpg" alt="HTML tutorial" >
-        </a>
-        <h2 style="text-align:center;">addStudent</h2>
-    </div>
-    </c:if>
-    <div class="box_1">
-        <a href="controller?command=logout">
-        <img class="img_1" src="static/img/logout.jpg" alt="HTML tutorial">
-        </a>
-        <h2 style="text-align:center;">logout</h2>
-    </div>
+    <div class="jumbotron" style="margin: 50px 100px;background-color:rgba(225,228,196,0.5);">
+        <h1 class="display-4">Hello, Student!</h1>
+        <p class="lead">This is a student information management system where you can search student information by name, major, and also view tutor information.</p>
+        <hr class="my-4">
+        <p>If you have any questions, please contact the administrator.</p>
+        <a class="btn btn-primary btn-lg" href="controller?command=studentList" role="button">Start Inquiry</a>
     </div>
     </body>
 </html>

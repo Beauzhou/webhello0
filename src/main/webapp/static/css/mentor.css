@@ -14,33 +14,28 @@
     background-attachment: fixed;
     background-size: cover;
 }
+.h2{
+    text-align: center;
+    margin: 50px auto;
+}
 .list_body1 .list_div1{
+    margin-top: 50px;
+    display: flex;
     position: relative;
-    top:50px;
-    left:150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
     vertical-align:middle;
 }
-.list_body1 .list_div1 li{
-    margin-left: 100px;
-    margin-bottom: 45px;
-}
-.mentor1{
-    position: absolute;
-    top: 50px;
-    left: -10px;
-    width: 100px;
-    height: 120px;
-}
-.mentor1 img{
-    width: 100%;
-    height: 100%;
+.list_div1 .card img{
+    width: 286px;
+    height: 350px;
 }
 .mentor2{
     position: absolute;
-    top: 200px;
-    left:-10px;
-    width: 100px;
-    height: 120px;
+    left:418px;
+    width: 286px;
+    height: 350px;
 }
 .mentor2 img{
     width: 100%;
@@ -48,10 +43,9 @@
 }
 .mentor3{
     position: absolute;
-    top: 350px;
-    left: -10px;
-    width: 100px;
-    height: 120px;
+    left: 792px;
+    width: 286px;
+    height: 350px;
 }
 .mentor3 img{
     width: 100%;
@@ -59,10 +53,9 @@
 }
 .mentor4{
     position: absolute;
-    top: 500px;
-    left: -10px;
-    width: 100px;
-    height: 120px;
+    left: 1167px;
+    width: 286px;
+    height: 350px;
 }
 .mentor4 img{
     width: 100%;

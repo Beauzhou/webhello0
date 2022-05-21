@@ -31,6 +31,37 @@ public class StudentDao {
             return map(resultSet);
         }
     }
+    public  List<Student> selectStudent(String name,String major) throws SQLException {
+        ConnectionFactory factory = new ConnectionFactory();
+        try(Connection connection =factory.create()) {
+            String sql="select * from student";
+            if (name!=""&& major!=""){
+                sql +=" where name = ? and major = ?";
+            }
+            else if (name==""&& major!=""){
+                sql += " where major=?";
+            }
+            else if (name!=""&& major==""){
+                sql += " where name=? ";
+            }
+            else{
+                sql += " where name <> '' and major <> ''";
+            }
+            PreparedStatement statement = connection.prepareStatement(sql);
+            if (name!=""&& major!=""){
+                statement.setString(1, name);
+                statement.setString(2, major);
+            }
+            else if (name==""&& major!=""){
+                statement.setString(1, major);
+            }
+            else if (name!=""&& major==""){
+                statement.setString(1, name);
+            }
+            ResultSet resultSet = statement.executeQuery();
+            return  map(resultSet);
+        }
+    }
     public void save(Student student) throws SQLException {
         ConnectionFactory factory = new ConnectionFactory();
         try (Connection connection = factory.create()) {

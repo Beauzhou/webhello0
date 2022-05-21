@@ -29,6 +29,9 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="controller?command=mentorList" >Mentorlists</a>
                     </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="controller?command=selectMark" >mark</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -38,8 +41,22 @@
             </div>
         </div>
     </nav>
+
     <div class="list_div" >
         <h2 class="h2">Student list </h2>
+        <div class="select" style="margin: 10px 300px;">
+            <form class="form-inline" action="controller?command=selectStudent" method="post">
+                <div class="form-group mb-2">
+                    <label for="staticEmail2" class="sr-only">Name</label>
+                    <input type="text" class="form-control" id="staticEmail2" placeholder="name" name="name" >
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="inputPassword2" class="sr-only">Major</label>
+                    <input type="text" class="form-control" id="inputPassword2" placeholder="major"  name="major">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">search</button>
+            </form>
+        </div>
         <table class="table table-hover" style="width:80%">
             <thead>
             <tr>

@@ -28,7 +28,10 @@ public class CommandFactory {
                 return new UpgradeStudentMain();
             case "main":
                 return new MainCommand();
-
+            case "selectMark":
+                return new MarkCommand();
+            case "selectStudent":
+                return new SelectCommand();
             default:
                 throw new UnsupportedOperationException();
         }

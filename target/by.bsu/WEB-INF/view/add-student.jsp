@@ -29,6 +29,9 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="controller?command=mentorList" >Mentorlists</a>
                     </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="controller?command=selectMark" >mark</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -57,7 +60,12 @@
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputCity">mentor</label>
-                    <input type="text" class="form-control" id="inputCity" name="mentor">
+                    <select class="form-control" id="inputCity" name="mentor">
+                        <option>Volkov Vassily Mikhailovich</option>
+                        <option>Abramyko Sergei Vladimirovich</option>
+                        <option>Deryushev Andrey Anatolyevich</option>
+                        <option>Dubrov Boris Mihajlovich</option>
+                    </select>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputState">gender</label>

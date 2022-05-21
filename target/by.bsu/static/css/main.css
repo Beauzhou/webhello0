@@ -28,16 +28,19 @@
 }
 .main_box{
     position: relative;
-    top:200px;
-    left: 200px;
+    top:100px;
+    left: 100px;
+
 }
 .main_box .box_1{
     float:left;
-    margin:50px
+    margin:50px;
+    border: 2px solid #0b2e13;
+    border-radius: 50%;
 }
 .main_box .box_1 .img_1 {
     border: 1px solid black;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
