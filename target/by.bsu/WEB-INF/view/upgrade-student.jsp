@@ -5,6 +5,7 @@
 <head>
   <link rel="stylesheet" href="static/css/main.css">
   <link rel="stylesheet" href="static/bootstrap/bootstrap.4.6.min.css">
+  <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
   <title>Upgradestudent UI</title>
 </head>
 <body class="student_body">
@@ -32,6 +33,9 @@
         </li>
         <li class="nav-item ">
           <a class="nav-link" href="controller?command=mentorList" >Mentorlists</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="controller?command=selectMark" >mark</a>
         </li>
       </ul>
       <ul class="navbar-nav">

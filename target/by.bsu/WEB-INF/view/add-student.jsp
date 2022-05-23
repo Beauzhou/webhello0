@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet" href="static/bootstrap/bootstrap.4.6.min.css">
+    <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
     <title>ADDstudent UI</title>
 </head>
     <body class="student_body">

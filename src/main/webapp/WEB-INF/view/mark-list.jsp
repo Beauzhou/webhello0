@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet" href="static/bootstrap/bootstrap.4.6.min.css">
+    <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
     <title>StudentsList UI</title>
 </head>
 <body class="list_body">
@@ -43,7 +44,7 @@
 </nav>
 
 <div class="list_div" >
-    <h2 class="h2">Student list </h2>
+    <h2 class="h2">Mark list </h2>
     <div class="select" style="margin: 10px 300px;">
         <form class="form-inline" action="controller?command=selectMark" method="post">
             <div class="form-group mb-2">

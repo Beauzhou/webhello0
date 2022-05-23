@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="static/css/mentor.css">
     <link rel="stylesheet" href="static/bootstrap/bootstrap.4.6.min.css">
+    <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
     <title>MentorsList UI</title>
 </head>
 <body class="list_body1">

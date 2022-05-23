@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="static/css/style.css">
+        <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
     <title>login UI</title>
     </head>
     <body>
