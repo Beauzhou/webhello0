@@ -50,5 +50,6 @@
         <p>If you have any questions, please contact the administrator.</p>
         <a class="btn btn-primary btn-lg" href="controller?command=studentList" role="button">Start Inquiry</a>
     </div>
+    
     </body>
 </html>
